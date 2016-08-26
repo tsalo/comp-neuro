@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Set up project-specific python environment
+module add miniconda/2.7
+source activate /home/tsalo006/comp-neuro/env
+
+# Set Python path to project-specific folder
+PYTHONPATH="${PYTHONPATH}:/home/tsalo006/comp-neuro/"
+
+export project_name="[CN]"
